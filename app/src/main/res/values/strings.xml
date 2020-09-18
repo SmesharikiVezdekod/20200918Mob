@@ -3,4 +3,7 @@
     <string name="visible_to_all">Visible to all</string>
     <string name="only_friends">Only friends</string>
     <string name="not_visible_to_anyone">Not visible to anyone</string>
+    <string name="now">Now</string>
+    <string name="mood">Mood</string>
+    <string name="thematics">Thematics</string>
 </resources>

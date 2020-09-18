@@ -6,4 +6,5 @@
     <color name="colorWhite">#ffffff</color>
     <color name="colorBlack">#000000</color>
     <color name="colorBorderBtn">#E1E3E6</color>
+    <color name="colorLightText">#818C99</color>
 </resources>
