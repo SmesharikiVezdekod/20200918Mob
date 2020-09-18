@@ -1,6 +1,7 @@
 package ru.smeshariki.emotions
 
 import android.os.Bundle
+import android.view.View
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -26,5 +27,13 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+    }
+
+    fun hideBottomNav(bottomBar: BottomNavigationView) {
+        bottomBar.visibility = View.INVISIBLE
+    }
+
+    fun showBottomNav(bottomBar: BottomNavigationView) {
+        bottomBar.visibility = View.VISIBLE
     }
 }
