@@ -1,17 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:id="@+id/menuGroup1">
+    <group android:id="@+id/menuGroupVisible">
         <item
-            android:id="@+id/menu1"
+            android:id="@+id/visible"
             android:title="@string/visible_to_all" />
         <item
-            android:id="@+id/menu2"
+            android:id="@+id/friends"
             android:title="@string/only_friends" />
 
         <item
-            android:id="@+id/menu3"
+            android:id="@+id/nobody"
             android:title="@string/not_visible_to_anyone" />
+    </group>
 
+    <group android:id="@+id/menuGroupTime">
+        <item
+            android:id="@+id/now"
+            android:title="@string/now" />
+        <item
+            android:id="@+id/tomorrow"
+            android:title="@string/tomorrow" />
+
+        <item
+            android:id="@+id/chooseData"
+            android:title="@string/choose_data" />
+    </group>
+
+    <group android:id="@+id/menuGroupMood">
+        <item
+            android:id="@+id/fire"
+            android:title="@string/mood_fire" />
+        <item
+            android:id="@+id/boring"
+            android:title="@string/mood_boring" />
+
+        <item
+            android:id="@+id/good"
+            android:title="@string/mood_good" />
+    </group>
+
+    <group android:id="@+id/menuGroupThematics">
+        <item
+            android:id="@+id/art"
+            android:title="@string/thematics_art" />
+        <item
+            android:id="@+id/it"
+            android:title="@string/thematics_it" />
+
+        <item
+            android:id="@+id/photo"
+            android:title="@string/thematic_photo" />
     </group>
 </menu>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Emotions</string>
     <string name="visible_to_all">Видно всем</string>
@@ -11,4 +12,13 @@
     <string name="title_messages">Сообщения</string>
     <string name="title_profile">Профиль</string>
     <string name="title_clips">Клипы</string>
+    <string name="create_post">Создать пост</string>
+    <string name="tomorrow">Завтра</string>
+    <string name="choose_data">Выбрать дату</string>
+    <string name="mood_fire">Огонь</string>
+    <string name="mood_boring">Скукота</string>
+    <string name="mood_good">Хорошее настроение</string>
+    <string name="thematics_art">Исскуство</string>
+    <string name="thematics_it">IT</string>
+    <string name="thematic_photo">Фото</string>
 </resources>

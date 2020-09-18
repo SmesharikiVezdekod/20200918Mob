@@ -9,10 +9,11 @@
     <Button
         android:id="@+id/btn"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
         android:background="@drawable/vk_popup_btn_background"
         android:drawableStart="@drawable/visible_btn_icon"
         android:drawableEnd="@drawable/arrow_down_icon"
+        android:drawablePadding="7.75dp"
         android:paddingStart="12dp"
         android:paddingEnd="12dp"
         android:text="@string/visible_to_all"
