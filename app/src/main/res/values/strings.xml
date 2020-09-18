@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Emotions</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="title_feed">Новости</string>
+    <string name="title_services">Сервисы</string>
+    <string name="title_messages">Сообщения</string>
+    <string name="title_profile">Профиль</string>
+    <string name="title_clips">Клипы</string>
 </resources>
