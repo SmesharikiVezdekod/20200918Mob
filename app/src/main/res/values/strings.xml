@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">Emotions</string>
-    <string name="title_activity_main2">MainActivity</string>
+    <string name="visible_to_all">Видно всем</string>
+    <string name="only_friends">Только друзьям</string>
+    <string name="not_visible_to_anyone">Не видно никому</string>
+    <string name="now">Сейчас</string>
+    <string name="mood">Настроение</string>
+    <string name="thematics">Тематика</string>
     <string name="title_feed">Новости</string>
     <string name="title_services">Сервисы</string>
     <string name="title_messages">Сообщения</string>
