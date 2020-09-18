@@ -1,15 +1,9 @@
 <resources>
     <string name="app_name">Emotions</string>
-    <string name="visible_to_all">Visible to all</string>
-    <string name="only_friends">Only friends</string>
-    <string name="not_visible_to_anyone">Not visible to anyone</string>
-    <string name="now">Now</string>
-    <string name="mood">Mood</string>
-    <string name="thematics">Thematics</string>
-    <string name="title_activity_main2" translatable="false">MainActivity</string>
-    <string name="title_feed">News</string>
-    <string name="title_services">Services</string>
-    <string name="title_messages">Messages</string>
-    <string name="title_profile">Profile</string>
-    <string name="title_clips">Clips</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="title_feed">Новости</string>
+    <string name="title_services">Сервисы</string>
+    <string name="title_messages">Сообщения</string>
+    <string name="title_profile">Профиль</string>
+    <string name="title_clips">Клипы</string>
 </resources>
