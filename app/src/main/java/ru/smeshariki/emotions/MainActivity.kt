@@ -1,19 +1,40 @@
+
 package ru.smeshariki.emotions
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import ru.smeshariki.emotions.ui.main.CreatePostFragment
-import ru.smeshariki.emotions.ui.main.MainFragment
+import android.view.View
+import com.google.android.material.bottomnavigation.BottomNavigationView
+import androidx.appcompat.app.AppCompatActivity
+import androidx.navigation.findNavController
+import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.setupActionBarWithNavController
+import androidx.navigation.ui.setupWithNavController
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.main_activity)
-        if (savedInstanceState == null) {
-            supportFragmentManager.beginTransaction()
-                .replace(R.id.container, CreatePostFragment.newInstance())
-                .commitNow()
-        }
+        setContentView(R.layout.activity_main)
+        val navView: BottomNavigationView = findViewById(R.id.nav_view)
+
+        val navController = findNavController(R.id.nav_host_fragment)
+        // Passing each menu ID as a set of Ids because each
+        // menu should be considered as top level destinations.
+        val appBarConfiguration = AppBarConfiguration(
+            setOf(
+                R.id.map, R.id.navigation_services, R.id.navigation_messages,
+                R.id.navigation_clips, R.id.navigation_profile
+            )
+        )
+        setupActionBarWithNavController(navController, appBarConfiguration)
+        navView.setupWithNavController(navController)
+    }
+
+    fun hideBottomNav(bottomBar: BottomNavigationView) {
+        bottomBar.visibility = View.INVISIBLE
+    }
+
+    fun showBottomNav(bottomBar: BottomNavigationView) {
+        bottomBar.visibility = View.VISIBLE
     }
 }
