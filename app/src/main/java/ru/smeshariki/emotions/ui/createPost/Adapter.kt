@@ -1,4 +1,4 @@
-package ru.smeshariki.emotions.ui.main
+package ru.smeshariki.emotions.ui.createPost
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -45,6 +45,6 @@ class Adapter(itemList: List<BtnInfo>, onItemClickListener: OnItemClickListener)
         holder.btn.setCompoundDrawablesWithIntrinsicBounds(
             items[position].getImage(), null, img, null
         )
-        holder.btn.setOnClickListener { holder.listener.onClick(position) }
+        holder.btn.setOnClickListener { holder.listener.onClick(position, holder.btn) }
     }
 }
