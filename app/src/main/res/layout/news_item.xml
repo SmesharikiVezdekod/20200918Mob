@@ -35,7 +35,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Иван Иванов"
-                android:textColor="@color/black"
+                android:textColor="@color/colorBlack"
                 android:textSize="15sp" />
 
             <TextView
@@ -67,7 +67,7 @@
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
         android:text="«Убийство Роджера Экройда» (англ. The Murder of Roger Ackroyd) — детективный роман Агаты Кристи, опубликованный в 1926 году. Является шестым изданным романом писательницы и третьим, в котором фигурирует детектив Эркюль Пуаро. "
-        android:textColor="@color/black" />
+        android:textColor="@color/colorBlack" />
 
     <FrameLayout
         android:layout_width="match_parent"

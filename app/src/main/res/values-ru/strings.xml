@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Emotions</string>
+    <string name="app_name">Эмоции</string>
     <string name="visible_to_all">Видно всем</string>
     <string name="only_friends">Только друзьям</string>
     <string name="not_visible_to_anyone">Не видно никому</string>

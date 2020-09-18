@@ -1,3 +1,4 @@
+
 package ru.smeshariki.emotions
 
 import android.os.Bundle
