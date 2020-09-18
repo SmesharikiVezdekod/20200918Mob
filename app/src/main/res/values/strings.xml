@@ -6,4 +6,10 @@
     <string name="now">Now</string>
     <string name="mood">Mood</string>
     <string name="thematics">Thematics</string>
+    <string name="title_activity_main2" translatable="false">MainActivity</string>
+    <string name="title_feed">News</string>
+    <string name="title_services">Services</string>
+    <string name="title_messages">Messages</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_clips">Clips</string>
 </resources>
